@@ -1,0 +1,356 @@
+:root {
+    --principal: #F5DFC7;
+    --principal2:#DBEBE0;
+    --acento: #D5D5D5;
+    --transparente: rgba(213, 213, 213, 0);
+}
+
+/* Propidades de página */
+
+*{
+    margin:0px;
+    background-color: var(--acento);
+    
+}
+
+a{
+    background-color: var(--transparente);
+    text-decoration: underline;
+
+    
+}
+
+
+p{
+        background-color: var(--transparente);
+
+}
+
+/* Divisores */
+
+/* Encabezado */
+#divisor-encabezado{
+    background-color: var(--principal);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#encabezado{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px; 
+    height: 80px;
+
+} 
+
+/* Navegación */
+#divisor-navegacion{
+    background-color: var(--principal2);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+.vinculos{
+background-color: var(--principal2);
+font-size: 14px;
+text-align: justify;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+line-height: 18px;
+text-align: center;
+padding: 15px;
+
+}
+
+
+/* Footer */
+#divisor-footer{  
+    background-color: var(--principal);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#footer{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 105px;
+
+}
+
+/* Cuerpo */
+#divisor-cuerpo{
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#cuerpo{
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 677px;
+
+}
+
+/* Titulo */
+.title{
+text-align: center;
+font-style: normal;
+font-weight: bold;
+font-variant: normal;
+text-decoration: none;
+}
+
+#titulo{
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px; 
+    padding: 15px ;
+    text-align: center;
+}
+
+.texto{
+    font-family: Verdana;
+font-size: 12px;
+text-align: justify;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-decoration: none;
+line-height: 19px;
+
+
+}
+
+.negrita{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-variant: normal;
+text-decoration: none;
+
+}
+
+#cuatro-columnas-divisor{  
+        background-color: var(--transparente);
+
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#columnas-4{
+        background-color: var(--transparente);
+
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 627px;
+
+}
+
+#estructura-izq{
+        background-color: var(--transparente);
+
+    float: left;
+    height: 627px;
+    width: 600px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+
+}
+#izq{
+    background-color: var(--transparente);
+    float: left;
+    height: 613px;
+    width: 284px;
+    padding: 5px;
+    margin: 2px
+
+}
+
+#dere{
+    background-color: var(--transparente);
+    float: left;
+    height: 613px;
+    width: 284px;
+    padding: 5px;
+    margin: 2px
+
+}
+
+#estructura-dere{
+    background-color: var(--transparente);
+    float: right;
+    height: 613px;
+    width: 600px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+
+#izq2{
+    background-color: var(--transparente);
+    float: left;
+    height: 613px;
+    width: 284px;
+    padding: 5px;
+    margin: 2px
+  
+}
+
+#dere2{
+    background-color: var(--transparente);
+    float: left;
+    height: 613px;
+    width: 284px;
+    padding: 5px;
+    margin: 2px
+
+}
+
+.subtitulo{
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    text-decoration: none;
+}
+
+/* Dos columnas */
+#izquierda{
+    float: left;
+    height: 300px ;
+    width:600px;
+    border-style: none;
+    border-width: 0px;
+    border-width: 0px;
+
+}
+
+#derecha{
+    float: right;
+    height: 300px ;
+    width: 600px;
+    border-style: none;
+    border-width: 0px;
+    border-width: 0px;
+
+}
+
+#contenido{
+    border-style: none;
+    border-width: 0px;
+    margin: 2px 2px 2px 2px; 
+    padding-top: 10px; 
+    width: 100%;
+    height: 300px ;
+    clear: both;
+
+}
+
+/* Tres columnas */
+/* Primer columna */
+#columnas-2{
+       background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 280px ;
+
+}
+
+#cuerpoizq{
+    float: left;
+    height: 280px ;
+    width: 384px;
+    margin: 2px;
+    padding: 5px; 
+    
+}
+
+/* 2da y 3ra */
+#cuerpoder{
+    float: right;
+    height: 280px ;
+    width: 800px;
+    margin-left: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-width: 0px;
+    background-color: var(--transparente);
+
+}
+
+#izq1{
+    float: left;
+    height: 380px;
+    height: 280px ;
+    margin: 2px;
+    padding: 5px; 
+
+}
+
+#dere1{
+    float: right;
+    height: 380px;
+    height: 280px ;
+    margin: 2px;
+    padding: 5px; 
+}
+
+#contenido2{
+    border-style: none;
+    border-width: 0px;
+    padding-top: 10px; 
+    width: 100%;
+    height: 280px ;
+    clear: both;
+
+}
+
+.borde {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.margen {
+    margin-top: 20px;
+}
