@@ -189,3 +189,14 @@ padding: 15px;
 
 
 }
+
+.texto{
+    font-family: Verdana;
+font-size: 17px;
+text-align: justify;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-decoration: none;
+line-height: 18px;
+}

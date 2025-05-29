@@ -1,0 +1,338 @@
+:root {
+    --principal: #8CCCEE;
+    --principal2:#7F4869;
+    --acento: #B3B3B3;
+    --transparente: rgba(213, 213, 213, 0);
+}
+
+/* Propidades de página */
+
+*{
+    margin:0px;
+    background-color: var(--acento);
+    
+}
+
+a{
+    background-color: var(--transparente);
+    color: white;
+    font-weight: bold;
+
+
+
+    
+}
+
+
+p{
+        background-color: var(--transparente);
+
+}
+
+/* Divisores */
+
+/* Encabezado */
+#divisor-encabezado{
+    background-color: var(--principal);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#encabezado{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px; 
+    height: 80px;
+
+} 
+
+/* Navegación */
+#divisor-navegacion{
+    background-color: var(--principal2);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+.vinculos{
+        font-family: Verdana;
+color: white;
+background-color: var(--principal2);
+font-size: 14px;
+text-align: justify;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+line-height: 18px;
+text-align: center;
+padding: 15px;
+
+}
+
+
+/* Footer */
+#divisor-footer{  
+    background-color: var(--principal);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#footer{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 105px;
+
+}
+
+/* Cuerpo */
+#divisor-cuerpo{
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#cuerpo{
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 683px;
+
+}
+
+
+/* Columnas */
+/* Dos columnas */
+#izquierda{
+    float: left;
+    height: 300px ;
+    width:598px;
+    border-style: none;
+    border-width: 0px;
+    border-width: 0px;
+    border: 1px solid  var(--principal3); 
+
+
+}
+
+#derecha{
+    float: right;
+    height: 300px ;
+    width: 598px;
+    border-style: none;
+    border-width: 0px;
+    border-width: 0px;
+    border: 1px solid  var(--principal3); 
+
+
+}
+
+#contenido{
+    border-style: none;
+    border-width: 0px;
+    margin: auto; 
+    padding-top: auto; 
+    width: 100%;
+    height: 300px ;
+    clear: both;
+
+}
+
+.title{
+font-family: Verdana;
+font-size: 25px;
+text-align: center;
+font-style: normal;
+font-weight: bold;
+font-variant: normal;
+text-decoration: none;
+}
+
+#titulo{
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px; 
+    height: 40px; 
+    padding-top:10px;
+    text-align: center;
+
+}
+
+
+
+/* Cuatro columnas */
+
+#columnas-4{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 416px;
+
+}
+
+#cuerpoizq2{
+    float: left;
+    height: 400px;
+    width: 600px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+
+}
+
+#cuerpoder2{
+    float: right;
+    height: 400px;
+    width: 600px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#izq2{
+    float: left;
+    height: 400px;
+    width: 298px;
+    padding: auto;
+    margin: auto;
+
+}
+
+#dere2{
+    float: left;
+    height: 400px;
+    width: 298px;
+    padding: auto;
+    margin:auto;
+
+}
+
+#izq3{
+    float: left;
+    height: 400px;
+    width: 298px;
+    padding: auto;
+    margin: auto;
+  
+}
+
+#dere3{
+    float: left;
+    height: 400px;
+    width: 298px;
+    padding: auto;
+    margin: auto;
+
+
+}
+
+.texto{
+    font-family: Verdana;
+font-size: 15px;
+text-align: justify;
+font-style: normal;
+font-variant: normal;
+text-decoration: none;
+line-height: 20px;
+}
+
+.subtitulo{
+    font-weight: bold;
+        font-family: Verdana;
+font-size: 17px;
+
+}
+
+.negrita{
+    font-size: 14px;
+
+      font-weight: bold;
+        font-family: Verdana;
+
+}
+/* tres columnas */ 
+#columnas-2 {
+  background-color: var(--transparente);
+  border-style: none;
+  border-width: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 600px;
+}
+
+#cuerpoizq {
+  float: left;
+  height: 600px;
+  width: 520px;
+  margin: auto;
+  padding: auto;
+
+
+}
+
+/* 2da y 3ra */
+#cuerpoder {
+  float: right;
+  height: 600px;
+  width: 700;
+  margin-left: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0px;
+  background-color: var(--transparente);
+
+}
+
+#izq1 {
+  float: left;
+  height: 600px;
+  width: 400px;
+  margin: auto;
+  padding: auto;
+  padding-right: 25px;
+
+
+}
+
+#dere1 {
+  float: right;
+  height: 600px;
+  width: 220px;
+  margin: auto;
+  padding: auto;
+
+
+}
+
+.borde{
+    border: 1px dotted  black; 
+
+}
