@@ -1,0 +1,160 @@
+:root {
+  --principal: #f5dfc7;
+  --principal2: #dbebe0;
+  --principal3: #000000;
+  --acento: #d5d5d5;
+  --transparente: rgba(213, 213, 213, 0);
+}
+
+/* Propidades de página */
+
+* {
+  margin: 0px;
+  background-color: var(--acento);
+}
+
+a {
+  background-color: var(--transparente);
+  text-decoration: underline;
+}
+
+p {
+  background-color: var(--transparente);
+}
+
+/* Divisores */
+
+/* Encabezado */
+#divisor-encabezado {
+  background-color: var(--principal);
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  border-width: 0px;
+}
+
+#encabezado {
+  background-color: var(--transparente);
+  border-style: none;
+  border-width: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 80px;
+}
+
+/* Navegación */
+#divisor-navegacion {
+  background-color: var(--principal2);
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  border-width: 0px;
+}
+
+.vinculos {
+  background-color: var(--principal2);
+  font-size: 14px;
+  text-align: justify;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 18px;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Footer */
+#divisor-footer {
+  background-color: var(--principal);
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  border-width: 0px;
+}
+
+#footer {
+  background-color: var(--transparente);
+  border-style: none;
+  border-width: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 105px;
+}
+
+/* Cuerpo */
+#divisor-cuerpo {
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  border-width: 0px;
+}
+
+#cuerpo {
+  border-style: none;
+  border-width: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 677px;
+}
+
+/* COLUMNAS */
+/* 3 Columnas */
+/* Primer columna */
+#columnas-2 {
+  background-color: var(--transparente);
+  border-style: none;
+  border-width: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 400px;
+}
+
+#cuerpoizq {
+  float: left;
+  height: 400px;
+  width: 398px;
+  margin: auto;
+  padding: auto;
+    border: 1px solid  var(--principal3); 
+
+
+}
+
+/* 2da y 3ra */
+#cuerpoder {
+  float: right;
+  height: 400px;
+  width: 800px;
+  margin-left: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0px;
+  background-color: var(--transparente);
+
+}
+
+#izq1 {
+  float: left;
+  height: 400px;
+  width: 398px;
+  margin: auto;
+  padding: auto;
+    border: 1px solid  var(--principal3); 
+
+
+}
+
+#dere1 {
+  float: right;
+  height: 400px;
+  width: 398px;
+  margin: auto;
+  padding: auto;
+    border: 1px solid  var(--principal3); 
+
+
+}

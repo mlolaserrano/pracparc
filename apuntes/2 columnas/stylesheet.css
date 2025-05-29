@@ -1,0 +1,153 @@
+:root {
+    --principal: #F5DFC7;
+    --principal2:#DBEBE0;
+    --principal3:#000000;
+    --acento: #D5D5D5;
+    --transparente: rgba(213, 213, 213, 0);
+}
+
+/* Propidades de página */
+
+*{
+    margin:0px;
+    background-color: var(--acento);
+    
+}
+
+a{
+    background-color: var(--transparente);
+    text-decoration: underline;
+
+    
+}
+
+
+p{
+        background-color: var(--transparente);
+
+}
+
+/* Divisores */
+
+/* Encabezado */
+#divisor-encabezado{
+    background-color: var(--principal);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#encabezado{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px; 
+    height: 80px;
+
+} 
+
+/* Navegación */
+#divisor-navegacion{
+    background-color: var(--principal2);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+.vinculos{
+background-color: var(--principal2);
+font-size: 14px;
+text-align: justify;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+line-height: 18px;
+text-align: center;
+padding: 15px;
+
+}
+
+
+/* Footer */
+#divisor-footer{  
+    background-color: var(--principal);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#footer{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 105px;
+
+}
+
+/* Cuerpo */
+#divisor-cuerpo{
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#cuerpo{
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 677px;
+
+}
+
+
+/* Columnas */
+/* Dos columnas */
+#izquierda{
+    float: left;
+    height: 300px ;
+    width:598px;
+    border-style: none;
+    border-width: 0px;
+    border-width: 0px;
+        border: 1px solid  var(--principal3); 
+
+
+}
+
+#derecha{
+    float: right;
+    height: 300px ;
+    width: 598px;
+    border-style: none;
+    border-width: 0px;
+    border-width: 0px;
+        border: 1px solid  var(--principal3); 
+
+
+}
+
+#contenido{
+    border-style: none;
+    border-width: 0px;
+    margin: 2px 2px 2px 2px; 
+    padding-top: 10px; 
+    width: 100%;
+    height: 300px ;
+    clear: both;
+
+}
